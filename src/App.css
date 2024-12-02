@@ -1,3 +1,11 @@
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.headingfont{
+  font-family: "Trirong", serif;
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +44,38 @@
     transform: rotate(360deg);
   }
 }
+
+/* Default dot styles */
+.slick-dots li div {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: red; /* Inactive dot color */
+  transition: all 0.3s ease;
+}
+
+/* Active dot styles */
+.slick-dots li.slick-active div {
+  background: blue; /* Active dot color */
+  transform: scale(1.2); /* Slightly enlarge the active dot */
+}
+
+.our-clients {
+  padding: 20px;
+  text-align: center;
+}
+
+.our-clients img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+ 
+}
+
+.our-clients .slick-track {
+  display: flex;
+  gap: 20px; /* Adds space between images inside the slider */
+}
+
+
+
