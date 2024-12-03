@@ -45,7 +45,7 @@ const OurProjects = () => {
                 style={{ backgroundColor: '#E7ECFF' }}
             >
                 <div className="w-full md:w-3/4 lg:ml-7 lg:-mt-2">
-                    <h2 className="text-red-600 text-xl md:text-3xl font-bold mb-4 headingfont">
+                    <h2 className="text-[#ED1C24] text-xl md:text-3xl font-bold mb-4 headingfont">
                         OUR PROJECTS
                     </h2>
                 </div>

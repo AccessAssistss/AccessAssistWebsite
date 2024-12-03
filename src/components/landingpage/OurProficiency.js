@@ -21,7 +21,7 @@ const OurProficiency = () => {
 
   return (
     <div className="bg-[#E7ECFF] py-8 pb-20 my-10">
-      <h2 className="text-center md:text-3xl text-xl font-bold text-red-600 mb-6 headingfont">
+      <h2 className="text-center md:text-3xl text-xl font-bold text-[#ED1C24] mb-6 headingfont">
         OUR PROFICIENCY
       </h2>
       <div className="flex flex-col md:flex-row justify-center gap-8 px-4 ">

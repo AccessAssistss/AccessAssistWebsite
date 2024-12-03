@@ -16,7 +16,7 @@ const AdvisoryForFarmers = () => {
   return (
     <>
       <div>
-        <img src={hero} alt="" />
+        <img width={'100%'} src={hero} alt="" />
       </div>
 
 

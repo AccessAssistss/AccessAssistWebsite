@@ -78,7 +78,7 @@ const OurClients = () => {
 
                 {/* Text content */}
                 <div className="w-full md:w-1/2  md:text-left">
-                    <h1 className="text-red-600 text-xl md:text-4xl font-bold mb-10 headingfont">
+                    <h1 className="text-[#ED1C24] text-xl md:text-4xl font-bold mb-10 headingfont">
                         CATALYSTS FOR CHANGE
                     </h1>
                     <p className="text-gray-700 text-lg leading-relaxed mb-4">

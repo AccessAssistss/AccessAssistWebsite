@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import img from '../../assets/driving_social_change_through_our_projects.png'
+import img from '../../assets/Frame 1000006953.png'
 import group1 from '../../assets/CAPACITY BUILDING FOR FARMERS.png';
 import group2 from '../../assets/CONSUMER DATA ANALYSIS ON DIGITAL FINANCIAL SERVICES.png';
 import group3 from '../../assets/CONSUMER DATA ANALYSIS ON DIGITAL FINANCIAL SERVICES (1).png';
@@ -17,7 +17,7 @@ const images = [
   { src: group2, alt: 'Client 2', path: 'consumerdata' },
   { src: group3, alt: 'Client 3', path: 'digitalagritrans' },
   { src: group4, alt: 'Client 4' },
-  { src: group5, alt: 'Client 5', path: 'capacitybuildingofgiz' },
+  { src: group5, alt: 'Client 5' },
   { src: group6, alt: 'Client 6' },
   { src: group7, alt: 'Client 7' },
   { src: group8, alt: 'Client 8', path: 'advisoryforfarmers' },
@@ -28,17 +28,36 @@ const images = [
 const OurProjectsHome = () => {
   useEffect(() => {
     window.scroll({
-        top: 0,
-        left: 0,
-        behavior: 'instant',
+      top: 0,
+      left: 0,
+      behavior: 'instant',
     });
-}, [])
+  }, [])
 
   const navigate = useNavigate()
   return (
     <>
       <div>
-        <img src={img} alt='' />
+        <div className="flex flex-col md:flex-row items-center bg-gradient-to-r from-[#FFE997] to-[#FFCF1F] p-6  ">
+          {/* Left Section: Text */}
+          <div className="w-full md:w-1/2 p-4">
+            <h2 className="md:text-4xl text-2xl font-bold text-[#ED1C24] mb-4 leading-tight headingfont">
+              DRIVING SOCIAL CHANGE THROUGH OUR PROJECTS
+            </h2>
+            <p className="md:text-xl mt-5">
+              Explore the projects that reflect our mission to uplift communities and foster meaningful, sustainable change.
+            </p>
+          </div>
+
+          {/* Right Section: Image */}
+          <div className="w-full md:w-1/2 p-4">
+            <img
+              src={img}
+              alt="Driving Social Change"
+
+            />
+          </div>
+        </div>
       </div>
       <div className='bg-[#E7ECFF]'>
         <div className="container mx-auto py-8">
@@ -47,7 +66,7 @@ const OurProjectsHome = () => {
               <div key={index} className="flex justify-center items-center px-2 py-4 ">
                 <img
                   onClick={() => {
-                    if(image.path){
+                    if (image.path) {
                       navigate(`/${image.path}`)
                     }
                   }}

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import hero from '../../assets/consudata.png'
+import hero from '../../assets/Group 1000006868.png'
 import img1 from '../../assets/Group 1000006863.png'
 import img2 from '../../assets/digital_lending.png'
 import img3 from '../../assets/mobile_banking.png'
@@ -17,7 +17,7 @@ const ConsumerData = () => {
   return (
     <>
       <div>
-        <img src={hero} alt="" />
+        <img width={'100%'} src={hero} alt="" />
       </div>
 
 

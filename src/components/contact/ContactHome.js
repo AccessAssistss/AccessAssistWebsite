@@ -20,7 +20,7 @@ const ContactPage = () => {
       <div className="bg-gradient-to-r from-[#FFE997] to-[#FFCF1F] text-gray-800">
         {/* Header Section */}
         <div className="text-center py-8  ">
-          <h1 className="text-xl md:text-4xl font-bold text-red-700 headingfont">
+          <h1 className="text-xl md:text-4xl font-bold text-[#ED1C24] headingfont">
             GET IN TOUCH WITH US. WE'RE HERE TO ASSIST YOU
           </h1>
         </div>
@@ -120,7 +120,7 @@ const ContactPage = () => {
 
         {/* Form */}
         <div className="bg-gradient-to-br from-[#E7ECFF] to-[#D1D8FF] p-8 rounded-3xl shadow-lg ">
-          <h2 className="text-2xl font-extrabold mb-6 text-red-700 text-center">
+          <h2 className="text-2xl font-extrabold mb-6 text-[#ED1C24] text-center">
             Get in Touch with Us
           </h2>
           <form className="space-y-6">

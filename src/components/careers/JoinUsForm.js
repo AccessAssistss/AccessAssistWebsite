@@ -4,7 +4,7 @@ const JoinUsForm = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-[#E7ECFF] p-5 mt-5">
       <div className="w-full max-w-7xl bg-white p-10 rounded-2xl shadow-lg">
-        <h1 className="md:text-4xl text-xl font-bold text-red-600 text-center mb-4 headingfont">
+        <h1 className="md:text-4xl text-xl font-bold text-[#ED1C24] text-center mb-4 headingfont">
           READY TO JOIN US ?
         </h1>
         <p className="text-gray-600 text-center mb-8">
@@ -76,7 +76,7 @@ const JoinUsForm = () => {
           </div>
         </form>
         <div className="mt-8 text-center">
-          <button className="bg-red-600 text-white text-lg font-medium py-3 px-8 rounded-md hover:bg-red-700 focus:outline-none focus:ring focus:ring-red-300 w-1/2 transform hover:scale-105 transition-transform duration-300">
+          <button className="bg-[#ED1C24] text-white text-lg font-medium py-3 px-8 rounded-md hover:bg-red-700 focus:outline-none focus:ring focus:ring-red-300 w-1/2 transform hover:scale-105 transition-transform duration-300">
             Submit
           </button>
         </div>

@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import img2 from '../../assets/image (16).png';
+// import img2 from '../../assets/image (16).png';
 import img1 from '../../assets/istockphoto-.png';
 import { Typography } from "@mui/material";
 
@@ -90,9 +90,7 @@ const HeroSection = () => {
             <img src={img1} alt="Hero Image" className="w-full h-96 object-cover" />
           </div>
 
-          <div>
-            <img src={img2} alt="Hero Image" className="w-full h-96  object-cover" />
-          </div>
+          
           <div>
             {/* <img src={baseUrl + "/abstract03.jpg"} className="w-full h-auto object-cover" /> */}
           </div>

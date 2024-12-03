@@ -41,7 +41,7 @@ const OurWork = () => {
     <div className="flex flex-col md:flex-row items-center justify-between bg-white p-6 md:p-12">
       {/* Text Content */}
       <div className="w-full md:w-3/4 lg:ml-7">
-        <h2 className="text-red-600 text-xl md:text-3xl font-bold mb-4 headingfont">
+        <h2 className="text-[#ED1C24] text-xl md:text-3xl font-bold mb-4 headingfont">
           OUR WORK
         </h2>
         <p className="text-gray-700 text-lg leading-relaxed">

@@ -37,7 +37,7 @@ const CapacityBuildingForFarmers = () => {
       </div>
 
 
-      <div class="md:w-1/2">
+      <div class="md:w-1/2 flex justify-center">
         <img width={450} src={img1} alt="AgriSarathi Platform" className='flex justify-center' />
       </div>
     </div>
@@ -71,7 +71,7 @@ const CapacityBuildingForFarmers = () => {
 
     <div class="flex flex-col md:flex-row justify-between items-center  my-10">
 
-    <div class="md:w-1/2 mb-5">
+    <div class="md:w-1/2 mb-5 flex justify-center">
         <img width={400} src={img3} alt="AgriSarathi Platform" className='flex justify-center' />
       </div>
 

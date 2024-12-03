@@ -55,7 +55,7 @@ const HumanCapital = () => {
     <div className="bg-[#E7ECFF] px-8 py-12">
       {/* Section Title */}
       <div>
-        <h2 className="text-red-600 md:text-4xl text-xl font-bold headingfont">OUR HUMAN CAPITAL</h2>
+        <h2 className="text-[#ED1C24] md:text-4xl text-xl font-bold headingfont">OUR HUMAN CAPITAL</h2>
         <p className="text-gray-700 mt-4 text-lg leading-relaxed">
           ASSIST is spearheaded by a team of seasoned professionals and experts from banking, technology, climate,
           and inclusive finance sectors. Strengthening their leadership is a talented cohort of data scientists,
@@ -73,7 +73,7 @@ const HumanCapital = () => {
 
       {/* Team Spotlight */}
       <div className="mt-16">
-        <h3 className="text-red-600  md:text-3xl text-xl font-bold text-center headingfont">Team Spotlight</h3>
+        <h3 className="text-[#ED1C24]  md:text-3xl text-xl font-bold text-center headingfont">Team Spotlight</h3>
         <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-8 ">
           {teamMembers.map((member, index) => (
             <div

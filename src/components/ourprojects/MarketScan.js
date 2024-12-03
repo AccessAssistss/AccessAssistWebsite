@@ -33,7 +33,7 @@ const MarketScan = () => {
       </div>
 
 
-      <div class="md:w-1/2">
+      <div class="md:w-1/2 flex justify-center">
         <img width={400} src={img1} alt="AgriSarathi Platform" className='flex justify-center' />
       </div>
     </div>

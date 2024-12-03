@@ -28,13 +28,15 @@ const Footer = () => {
         
         }}
       >
-        {/* Footer Content */}
+        
         <div className="container mx-auto px-4  pt-28 mt-10  ">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {/* Logo Section */}
-            <div>
+           
+            <div className="mt-5">
             <img width={180} src={logo} alt=""/>
-            <div className=" ml-3 space-x-4 mt-10 ">
+            </div>
+            <div className=" ml-3 space-x-4 mt-5 ">
+            
                 <a
                   href="#"
                   className="text-white"
@@ -64,9 +66,9 @@ const Footer = () => {
                   <InstagramIcon />
                 </a>
               </div>
-            </div>
+            
 
-            {/* Other Pages Section */}
+          
             <div>
               <h3 className="text-lg font-semibold mb-4">Links</h3>
               <ul className="space-y-2">
@@ -78,19 +80,10 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* More Pages Section */}
-            {/* <div>
-              <h3 className="text-lg font-semibold mb-4">One Heading</h3>
-              <ul className="space-y-2">
-                <li>Other Pages</li>
-                <li>Other Pages</li>
-                <li>Other Pages</li>
-                <li>Other Pages</li>
-              </ul>
-            </div> */}
+            
 
             {/* Contact Section */}
-            <div className="mb-20 space-y-2">
+            <div className="mb-20 space-y-3">
               <h3 className="text-lg font-semibold mb-4">Address </h3>
 
               <p>House No. 63 Third Floor</p>
