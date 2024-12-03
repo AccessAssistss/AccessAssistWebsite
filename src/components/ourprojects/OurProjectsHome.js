@@ -61,7 +61,7 @@ const OurProjectsHome = () => {
       </div>
       <div className='bg-[#E7ECFF]'>
         <div className="container mx-auto py-8">
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 ">
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6 ">
             {images.map((image, index) => (
               <div key={index} className="flex justify-center items-center px-2 py-4 ">
                 <img
@@ -72,7 +72,7 @@ const OurProjectsHome = () => {
                   }}
                   src={image.src}
                   alt={image.alt}
-                  className="hover:scale-105 transform transition-all duration-300 cursor-pointer"
+                  className="cursor-pointer"
                 />
               </div>
             ))}
