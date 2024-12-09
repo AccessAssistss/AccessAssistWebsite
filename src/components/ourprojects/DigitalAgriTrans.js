@@ -8,11 +8,11 @@ import OurProjects from '../landingpage/OurProjects'
 const DigitalAgriTrans = () => {
   useEffect(() => {
     window.scroll({
-        top: 0,
-        left: 0,
-        behavior: 'instant',
+      top: 0,
+      left: 0,
+      behavior: 'instant',
     });
-}, [])
+  }, [])
   return (
     <>
       <div>
@@ -36,7 +36,7 @@ const DigitalAgriTrans = () => {
 
 
         <div class="md:w-1/2 flex justify-center">
-          <img width={500} src={img1} alt="AgriSarathi Platform"  />
+          <img width={500} src={img1} alt="AgriSarathi Platform" />
         </div>
       </div>
 
@@ -64,54 +64,57 @@ const DigitalAgriTrans = () => {
             <div class="flex flex-col md:flex-row justify-between items-center  my-10">
 
               <div class="md:w-1/2 mb-5">
-                <img width={600} src={img3} alt="AgriSarathi Platform"  />
+                <img width={600} src={img3} alt="AgriSarathi Platform" />
               </div>
 
               <div class="md:w-1/2 w-full mb-6 lg:mr-3 ">
                 <p class="leading-relaxed mb-4 font-semibold md:text-3xl text-xl">Farm and Crop Planning </p>
                 <p class="leading-relaxed mb-4 font-semibold text-lg md:text-xl">
-                Improving farmer’s access to information, advisory about best practices through digital channels, access to high quality seeds, training, and capacity building on effectively adopting and using agritech, traceability and access to digital financial services. ASSIST has partnered with AgriSarathi - an agritech firm, to establish a white labelled, aggregate platform. 
+                  Improving farmer’s access to information, advisory about best practices through digital channels, access to high quality seeds, training, and capacity building on effectively adopting and using agritech, traceability and access to digital financial services. ASSIST has partnered with AgriSarathi - an agritech firm, to establish a white labelled, aggregate platform.
 
                 </p>
-               
+
               </div>
 
 
 
             </div>
             <div class="flex flex-col md:flex-row justify-between items-center  my-10">
-
-            <div class="md:w-1/2 w-full mb-6 lg:mr-3 ">
-                <p class="leading-relaxed mb-4 font-semibold md:text-3xl text-xl">Production </p>
-                <p class="leading-relaxed mb-4 font-semibold text-lg md:text-xl">
-                Precision agriculture (smart micro irrigation, AI based soil testing, IoT, Drones and satellite imagery-based monitoring, controlled application of inputs based on AI based advisories, AI based pest prediction and management, robotics etc.), traceability, access to digital financial services. 
-
-                </p>
-               
-              </div>
-
-              <div class="md:w-1/2 mb-5">
-                <img width={600} src={img3} alt="AgriSarathi Platform"  />
-              </div>
-
-              
-
-
-
-            </div>
-            <div class="flex flex-col md:flex-row justify-between items-center  my-10">
-
-              <div class="md:w-1/2 mb-5">
-                <img width={600} src={img3} alt="AgriSarathi Platform"  />
-              </div>
 
               <div class="md:w-1/2 w-full mb-6 lg:mr-3 ">
-                <p class="leading-relaxed mb-4 font-semibold md:text-3xl text-xl">Post-Harvest </p>
+                <p class="leading-relaxed mb-4 font-semibold md:text-3xl text-xl">Production </p>
                 <p class="leading-relaxed mb-4 font-semibold text-lg md:text-xl">
-                Post harvest treatment, IoT enabled cold storage/warehouses, traceability, hi-tech packaging centers, AI based quality testing, AI and ML based logistics, robotics. 
+                  Precision agriculture (smart micro irrigation, AI based soil testing, IoT, Drones and satellite imagery-based monitoring, controlled application of inputs based on AI based advisories, AI based pest prediction and management, robotics etc.), traceability, access to digital financial services.
 
                 </p>
-               
+
+              </div>
+
+              <div class="md:w-1/2 mb-5">
+                <img width={600} src={img3} alt="AgriSarathi Platform" />
+              </div>
+
+
+
+
+
+            </div>
+            <div class="flex flex-col md:flex-row justify-between items-center  my-10">
+
+              <div class="md:w-1/2 mb-5 ">
+                <video className="w-full h-auto rounded-2xl" controls>
+                  <source src="https://apis.agrisarathi.com/media/assist_website/asas.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+
+              <div class="md:w-1/2 w-full mb-6 md:mr-3 md:ml-5 ">
+                <p class="leading-relaxed mb-4 font-semibold md:text-3xl text-xl">Post-Harvest </p>
+                <p class="leading-relaxed mb-4 font-semibold text-lg md:text-xl">
+                  Post harvest treatment, IoT enabled cold storage/warehouses, traceability, hi-tech packaging centers, AI based quality testing, AI and ML based logistics, robotics.
+
+                </p>
+
               </div>
 
 

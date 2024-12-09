@@ -13,7 +13,7 @@ const VideoDection = () => {
             ASSIST: CUSTOMER SENTIMENT TOOL
           </h2>
           <video className="w-full h-auto rounded-lg" controls>
-            <source src="https://www.dropbox.com/scl/fi/lwnrvh8lon20e40m9vubj/agresarthi.mp4?e=1" type="video/mp4" />
+            <source src="https://apis.agrisarathi.com/media/assist_website/linkedin_post.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
@@ -24,7 +24,7 @@ const VideoDection = () => {
             उन्नत कृषि और प्रगतिशील कृषक का सारथी
           </h2>
           <video className="w-full h-auto rounded-lg" controls>
-            <source src="path-to-your-video-2.mp4" type="video/mp4" />
+            <source src="https://apis.agrisarathi.com/media/assist_website/agresarthi.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>

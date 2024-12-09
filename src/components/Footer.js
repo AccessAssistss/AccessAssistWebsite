@@ -32,9 +32,9 @@ const Footer = () => {
         <div className="container mx-auto px-4  pt-28 mt-10  ">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
            
-            <div className="mt-5">
+            {/* <div className="mt-5">
             <img width={180} src={logo} alt=""/>
-            </div>
+            </div> */}
             <div className=" ml-3 space-x-4 mt-5 ">
             
                 <a

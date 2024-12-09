@@ -102,7 +102,7 @@ const ConsumerData = () => {
             ASSIST: CUSTOMER SENTIMENT TOOL
           </h2>
           <video className="w-full h-auto rounded-2xl" controls>
-            <source src="https://www.dropbox.com/scl/fi/lwnrvh8lon20e40m9vubj/agresarthi.mp4?e=1" type="video/mp4" />
+            <source src="https://apis.agrisarathi.com/media/assist_website/linkedin_post.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
