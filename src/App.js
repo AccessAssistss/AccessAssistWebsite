@@ -56,7 +56,7 @@ function App() {
         <Route path="/olm" element={<Olm/>} />
         <Route path="/portfolioassessment" element={<PortfolioAssessment/>} />
         <Route path="/superwomenbuddhi" element={<SuperwomenBuddhi/>} />
-        <Route path="/saishya" element={<SaishyaMam/>} />
+        <Route path="/dashboard" element={<SaishyaMam/>} />
       </Routes>
       <Footer/>
     </BrowserRouter>
