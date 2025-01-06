@@ -22,6 +22,7 @@ import MarketScan from './components/ourprojects/MarketScan';
 import Olm from './components/ourprojects/Olm';
 import PortfolioAssessment from './components/ourprojects/PortfolioAssessment';
 import SuperwomenBuddhi from './components/ourprojects/SuperwomenBuddhi';
+import SaishyaMam from './components/ourprojects/SaishyaMam';
 
 const theme = createTheme({
   typography: {
@@ -55,6 +56,7 @@ function App() {
         <Route path="/olm" element={<Olm/>} />
         <Route path="/portfolioassessment" element={<PortfolioAssessment/>} />
         <Route path="/superwomenbuddhi" element={<SuperwomenBuddhi/>} />
+        <Route path="/saishya" element={<SaishyaMam/>} />
       </Routes>
       <Footer/>
     </BrowserRouter>
