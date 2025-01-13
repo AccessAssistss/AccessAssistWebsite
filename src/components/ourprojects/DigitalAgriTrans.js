@@ -75,9 +75,6 @@ const DigitalAgriTrans = () => {
                 </p>
 
               </div>
-
-
-
             </div>
             <div class="flex flex-col md:flex-row justify-between items-center  my-10">
 

@@ -22,6 +22,7 @@ const page = [
     { label: 'Our Projects', path: 'ourprojects' },
     // { label: 'Knowledge Capital', path: 'knowledgecapital' },
     { label: 'About Us', path: 'about' },
+    { label: 'Knowledge Capital', path: 'knowledgecapital' },
     { label: 'Careers', path: 'careers' },
     { label: 'Contact Us', path: 'contact' },
 
@@ -35,7 +36,7 @@ const Navbar = () => {
     const handleOpenNavMenu = (event) => {
         setAnchorElNav(event.currentTarget);
     };
-  
+
 
     const handleCloseNavMenu = () => {
         setAnchorElNav(null);
