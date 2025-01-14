@@ -22,7 +22,7 @@ const page = [
     { label: 'Our Projects', path: 'ourprojects' },
     // { label: 'Knowledge Capital', path: 'knowledgecapital' },
     { label: 'About Us', path: 'about' },
-    { label: 'Knowledge Capital', path: 'knowledgecapital' },
+    { label: 'Knowledge Capital', path: 'knowledgecapital/UPMIP' },
     { label: 'Careers', path: 'careers' },
     { label: 'Contact Us', path: 'contact' },
 
