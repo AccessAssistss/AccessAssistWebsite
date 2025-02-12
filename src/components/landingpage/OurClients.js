@@ -82,7 +82,7 @@ const OurClients = () => {
                         CATALYSTS FOR CHANGE
                     </h1>
                     <p className="text-gray-700 text-lg leading-relaxed mb-4">
-                        We are a premium consulting firm delivering high-quality, impactful
+                        We are a premium social and impact focus firm delivering high-quality, impactful
                         solutions in the development sector.
                     </p>
                     <p className="text-gray-700 text-lg leading-relaxed mb-6">
