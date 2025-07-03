@@ -3,7 +3,6 @@ import Navbar from './components/Navbar';
 import Home from './components/landingpage/Home';
 import Footer from './components/Footer';
 import "./App.css"
-
 import { createTheme, ThemeProvider } from '@mui/material';
 import AboutHome from './components/About/AboutHome';
 import KnowledgeCapitalHome from './components/knowledgecapital/KnowledgeCapitalHome';
@@ -11,7 +10,6 @@ import OurWorkHome from './components/ourwork/OurWorkHome';
 import CareersHome from './components/careers/CareersHome';
 import ContactHome from './components/contact/ContactHome';
 import OurProjectsHome from './components/ourprojects/OurProjectsHome';
-
 import AdvisoryForFarmers from './components/ourprojects/AdvisoryForFarmers';
 import CapacityBuildingForFarmers from './components/ourprojects/CapacityBuildingForFarmers';
 import CapacityBuildingOfGIZ from './components/ourprojects/CapacityBuildingOfGIZ';
@@ -23,6 +21,8 @@ import Olm from './components/ourprojects/Olm';
 import PortfolioAssessment from './components/ourprojects/PortfolioAssessment';
 import SuperwomenBuddhi from './components/ourprojects/SuperwomenBuddhi';
 import SaishyaMam from './components/ourprojects/SaishyaMam';
+import Blog from "./components/blog/Blog";
+import BlogDetail from './components/blog/BlogDetail';
 
 const theme = createTheme({
   typography: {
@@ -57,6 +57,8 @@ function App() {
         <Route path="/portfolioassessment" element={<PortfolioAssessment/>} />
         <Route path="/superwomenbuddhi" element={<SuperwomenBuddhi/>} />
         <Route path="/dashboard" element={<SaishyaMam/>} />
+        <Route path="/blog" element={<Blog/>} />
+        <Route path="/blog/:id" element={<BlogDetail />} />
       </Routes>
       <Footer/>
     </BrowserRouter>

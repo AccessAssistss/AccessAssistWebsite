@@ -66,8 +66,6 @@ const Footer = () => {
                   <InstagramIcon />
                 </a>
               </div>
-            
-
           
             <div>
               <h3 className="text-lg font-semibold mb-4">Links</h3>
@@ -80,8 +78,6 @@ const Footer = () => {
               </ul>
             </div>
 
-            
-
             {/* Contact Section */}
             <div className="mb-20 space-y-3">
               <h3 className="text-lg font-semibold mb-4">Address </h3>
@@ -93,11 +89,7 @@ const Footer = () => {
               <p>Phone: +91-8595022032</p>
             </div>
           </div>
-          <Divider className="bg-white"/>
-
-         
-         
-           
+          <Divider className="bg-white"/>          
             <div className="text-sm mt-10 justify-center flex   ">
               <a href="#" className="hover:underline mr-2 text-base">
                 Privacy Policy
@@ -107,10 +99,7 @@ const Footer = () => {
                 Terms & Conditions
               </a>
             </div>
-            
-             
-           
-        </div>
+       </div>
       </footer>
     </div>
   );

@@ -16,15 +16,16 @@ import MenuItem from '@mui/material/MenuItem';
 import logo from '../assets/image3x.png'
 import { useNavigate } from 'react-router-dom';
 
-const pages = [' Our Work', 'Our Projects', 'Knowledge Capital', 'About Us', 'Careers', 'Contact Us'];
 const page = [
     { label: 'Our Work', path: 'ourwork' },
     { label: 'Our Projects', path: 'ourprojects' },
     // { label: 'Knowledge Capital', path: 'knowledgecapital' },
     { label: 'About Us', path: 'about' },
     { label: 'Knowledge Capital', path: 'knowledgecapital/UPMIP' },
+    { label: 'Blogs', path: 'blog' },
     { label: 'Careers', path: 'careers' },
     { label: 'Contact Us', path: 'contact' },
+
 
 ]
 
@@ -36,7 +37,6 @@ const Navbar = () => {
     const handleOpenNavMenu = (event) => {
         setAnchorElNav(event.currentTarget);
     };
-
 
     const handleCloseNavMenu = () => {
         setAnchorElNav(null);
@@ -112,8 +112,8 @@ const Navbar = () => {
                                 key={page}
                                 onClick={() => navigate(`/${page.path}`)}
                                 sx={{
-                                    my: 2, color: 'black', display: 'block', ml: 1.5, font: 'bold', fontSize: 16, '&:hover': {
-                                        color: '#ED1C24',
+                                   textTransform: 'none', my: 2, color: 'black', display: 'block', ml: 1.5, font: 'bold', fontSize: 16, '&:hover': {
+                                        color: '#ED1C24', 
                                     },
                                 }}
                             >
