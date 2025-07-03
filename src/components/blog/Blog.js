@@ -35,9 +35,21 @@ const Blog = () => {
     return (
         <div className="min-h-screen bg-gray-50">
             {/* Header */}
-            <div>
-                <img width={'100%'} src={blog} alt="Blog" />
+            {/*<div>*/}
+            {/*    <img width={'100%'} src={blog} alt="Blog" />*/}
+            {/*</div>*/}
+            <div className="w-full bg-gray-200 py-5">
+                <div className="max-w-4xl mx-auto text-center">
+                    <h1 className="text-3xl md:text-5xl font-bold text-gray-900 ">
+                        Our Blog
+                    </h1>
+                    {/*<p className="text-lg text-gray-600 leading-relaxed">*/}
+                    {/*    Welcome to our blog — your go-to source for thoughtful articles, practical tips, and the latest trends.*/}
+                    {/*    We share stories that inform, inspire, and help you grow, both personally and professionally.*/}
+                    {/*</p>*/}
+                </div>
             </div>
+
             {/* Main Content */}
             <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
                 <div className="flex items-center justify-center gap-2 mb-8">
@@ -66,9 +78,9 @@ const Blog = () => {
 
                                     <div className="p-4">
                                         <div className="flex items-center gap-3 text-xs text-gray-500 mb-2">
-            <span className="flex items-center gap-1">
-              📅 {new Date(post.date).toLocaleDateString()}
-            </span>
+                 <span className="flex items-center gap-1">
+                     📅 {new Date(post.date).toLocaleDateString()}
+                 </span>
                                         </div>
 
                                         <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors line-clamp-2">
