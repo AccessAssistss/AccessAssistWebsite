@@ -33,7 +33,7 @@ const ExpandMore = styled((props) => {
 const teamMembers = [
     {
         name: 'Jaspreet Singh',
-        title: 'Partner – Inclusive Finance & Resilient Development',
+        title: 'Anchor Partner – Inclusive Finance & Resilient Development',
         image: img1,
         shortBio: 'Jaspreet is a seasoned banker and development finance expert with over two \n' +
             'decades of experience advancing sustainable development goals, particularly \n' +
@@ -53,7 +53,7 @@ smallholder farmers, and the aging. `,
     },
     {
         name: 'Anil Chandrika',
-        title: 'Partner - Inclusive Growth in Fragile Contexts',
+        title: ' Operating Partner - Inclusive Growth in Fragile Contexts',
         image: img2,
         shortBio: 'Anil Chandrika is a seasoned development leader with over 25 years of \n' +
             'experience advancing inclusive governance, gender equity, social protection, \n' +
@@ -95,7 +95,7 @@ focusing on embedding sustainability and resilience into inclusive financial sys
     },
     {
         name: 'Rakhi Sahay',
-        title: 'Partner - Knowledge Management and Communications',
+        title: 'Operating Partner - Knowledge Management and Communications',
         image: img4,
         shortBio: 'Rakhi Sahay is a seasoned development professional with over 20 years of \n' +
             'experience across inclusive finance, impact investment, and knowledge \n' +
