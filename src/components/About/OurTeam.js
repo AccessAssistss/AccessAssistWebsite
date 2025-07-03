@@ -156,7 +156,8 @@ const TeamCards = () => {
             <h2 className="text-2xl md:text-4xl font-bold text-[#ED1C24] text-center my-4 headingfont">
                 Our Team
             </h2>
-            <Grid container spacing={4} sx={{p: 3, px: 10}}>
+            <Grid container spacing={4} sx={{ p: 3, px: { md: 10 } }}
+            >
                 {teamMembers.map((member, index) => (
                     <Grid item xs={12} sm={6} md={4} key={index}>
                         <TeamCard member={member} onSeeMore={setSelectedMember}/>
