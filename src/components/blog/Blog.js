@@ -55,9 +55,9 @@ const Blog = () => {
                 <div className="flex items-center justify-center gap-2 mb-8">
                     {/*<span className="text-4xl">📖</span>*/}
                     {/*<h2 className="text-4xl font-bold text-gray-900">Blogs</h2>*/}
-                    <span className="text-gray-500 text-xl">
+                   {/* <span className="text-gray-500 text-xl">
                         ({loading ? 'Loading...' : `${blogPosts.length} posts`})
-                    </span>
+                    </span>*/}
                 </div>
 
                 {/* Blog Grid */}
