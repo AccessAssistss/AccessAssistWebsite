@@ -32,14 +32,14 @@ const ContactPage = () => {
             <div className="">
               <h2 className="text-lg font-bold">Headquarters</h2>
               <p className="text-sm font-semibold">
-                House No. 63, 3rd Floor, Lane 2, Westend Marg, Saidulajab, New Delhi 110030
+                1E/2, Desh Bandhu Gupta Road, Jhandewalan Extension, New Delhi 110055
               </p>
             </div>
             <Divider className="bg-black"/>
             <div className="">
               <h2 className="text-lg font-bold">Regional Office</h2>
               <p className="text-sm font-semibold">
-                B3-403, Rishita Manhattan, Gomti Nagar Extension, Lucknow UP - 226012
+                Unitech Cyber Park, Tower C, 9th Floor, Sector 39, Gurugram 122003
               </p>
             </div>
             <Divider className="bg-black"/>
@@ -91,13 +91,7 @@ const ContactPage = () => {
 
           {/* Map Section */}
           <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14022.69656118316!2d77.19057275855924!3d28.519450165624125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3c7085ea94b%3A0xcd25ce246a4b618a!2sAccess%20Assist!5e0!3m2!1sen!2sin!4v1732614085793!5m2!1sen!2sin"
-              width="100%"
-              height="500"
-              className="rounded-2xl border border-gray-300 shadow-md"
-              allowFullScreen=""
-              loading="lazy"
-              referrerPolicy="no-referrer-when">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.3930357993568!2d77.19867427613764!3d28.647948083379376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd66d9662f3d%3A0x19a7d3c0376b0522!2s1e%2C%20310%2F2%2C%20Desh%20Bandhu%20Gupta%20Rd%2C%20Karol%20Bagh%2C%20New%20Delhi%2C%20Delhi%2C%20110055!5e0!3m2!1sen!2sin!4v1755082416584!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
             </iframe>
           </div>
