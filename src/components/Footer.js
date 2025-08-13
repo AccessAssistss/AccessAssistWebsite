@@ -80,11 +80,20 @@ const Footer = () => {
 
             {/* Contact Section */}
             <div className="mb-20 space-y-3">
-              <h3 className="text-lg font-semibold mb-4">Address </h3>
+              <h3 className="text-lg font-semibold mb-4">Address</h3>
 
-              <p>House No. 63 Third Floor</p>
-              <p>Right Side Lane 2, Kahar Singh Estate</p>
-              <p>Saidulajab, New Delhi-110030</p>
+              <p>
+                <strong>HO:</strong> 1E/2, Desh Bandhu Gupta Road,
+              </p>
+              <p>Jhandewalan Extension, New Delhi 110055</p>
+
+              <div className="mt-4">
+                <p>
+                  <strong>Branch Office:</strong> Unitech Cyber Park, Tower C,
+                </p>
+                <p>9th Floor, Sector 39, Gurugram 122003</p>
+              </div>
+
               <p>Email: communications@accessassist.in</p>
               <p>Phone: +91-8595022032</p>
             </div>
