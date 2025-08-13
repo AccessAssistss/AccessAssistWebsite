@@ -91,7 +91,15 @@ const ContactPage = () => {
 
           {/* Map Section */}
           <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.3930357993568!2d77.19867427613764!3d28.647948083379376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd66d9662f3d%3A0x19a7d3c0376b0522!2s1e%2C%20310%2F2%2C%20Desh%20Bandhu%20Gupta%20Rd%2C%20Karol%20Bagh%2C%20New%20Delhi%2C%20Delhi%2C%20110055!5e0!3m2!1sen!2sin!4v1755082416584!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.3930357993568!2d77.19867427613764!3d28.647948083379376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd66d9662f3d%3A0x19a7d3c0376b0522!2s1e%2C%20310%2F2%2C%20Desh%20Bandhu%20Gupta%20Rd%2C%20Karol%20Bagh%2C%20New%20Delhi%2C%20Delhi%2C%20110055!5e0!3m2!1sen!2sin!4v1755082416584!5m2!1sen!2sin"
+              width="600"
+              height="450"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
           </div>
         </div>
 
