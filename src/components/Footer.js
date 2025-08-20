@@ -83,9 +83,8 @@ const Footer = () => {
               <h3 className="text-lg font-semibold mb-4">Address</h3>
 
               <p>
-                <strong>Registered Office:</strong> 1E/2, Desh Bandhu Gupta Road,
+                <strong>Registered Office:</strong> 1E/2, Desh Bandhu Gupta Road, Jhandewalan Extension, New Delhi 110055
               </p>
-              <p>Jhandewalan Extension, New Delhi 110055</p>
 
               <div className="mt-4">
                 <p>
