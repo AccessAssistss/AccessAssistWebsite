@@ -30,14 +30,14 @@ const ContactPage = () => {
           {/* Contact Information */}
           <div className="space-y-6 p-4 rounded-2xl border-2 border-black transform hover:scale-105 transition-transform duration-300">
             <div className="">
-              <h2 className="text-lg font-bold">Headquarters</h2>
+              <h2 className="text-lg font-bold">Registered Office</h2>
               <p className="text-sm font-semibold">
                 1E/2, Desh Bandhu Gupta Road, Jhandewalan Extension, New Delhi 110055
               </p>
             </div>
             <Divider className="bg-black"/>
             <div className="">
-              <h2 className="text-lg font-bold">Regional Office</h2>
+              <h2 className="text-lg font-bold">Corporate Office</h2>
               <p className="text-sm font-semibold">
                 Unitech Cyber Park, Tower C, 9th Floor, Sector 39, Gurugram 122003
               </p>
