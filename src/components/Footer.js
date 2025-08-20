@@ -83,13 +83,13 @@ const Footer = () => {
               <h3 className="text-lg font-semibold mb-4">Address</h3>
 
               <p>
-                <strong>HO:</strong> 1E/2, Desh Bandhu Gupta Road,
+                <strong>Registered Office:</strong> 1E/2, Desh Bandhu Gupta Road,
               </p>
               <p>Jhandewalan Extension, New Delhi 110055</p>
 
               <div className="mt-4">
                 <p>
-                  <strong>Branch Office:</strong> Unitech Cyber Park, Tower C,
+                  <strong>Corporate Office:</strong> Unitech Cyber Park, Tower C,
                 </p>
                 <p>9th Floor, Sector 39, Gurugram 122003</p>
               </div>
