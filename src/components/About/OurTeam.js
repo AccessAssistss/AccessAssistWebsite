@@ -40,7 +40,7 @@ const ExpandMore = styled((props) => {
 const teamMembers = [
     {
         name: 'Jaspreet Singh',
-        title: 'Anchor Partner – Inclusive Finance & Resilient Development',
+        title: 'Managing Trustee /Anchor – Inclusive Finance & Resilient Development',
         image: img1,
         shortBio: `Jaspreet is a seasoned banker and development finance expert with over two decades of experience advancing sustainable development goals, particularly in financial health and economic inclusion.`,
         fullBio: `Jaspreet is a seasoned banker and development finance expert with over two decades of experience advancing sustainable development goals, particularly in financial health and economic inclusion.
@@ -56,7 +56,7 @@ Currently, he leads Access Assist and serves on the boards and advisory groups o
 
     {
         name: 'Anil Chandrika',
-        title: 'Operating Partner - Inclusive Growth in Fragile Contexts',
+        title: 'Advisor - Inclusive Growth in Fragile Contexts',
         image: img2,
         shortBio: `Anil Chandrika is a seasoned development leader with over 25 years of experience advancing inclusive governance, gender equity, social protection, and sustainable livelihoods in disaster-affected and post-conflict settings.`,
         fullBio: `Anil Chandrika is a seasoned development leader with over 25 years of experience advancing inclusive governance, gender equity, social protection, and sustainable livelihoods in disaster-affected and post-conflict settings.
@@ -71,7 +71,7 @@ Anil holds a Master’s in Development Management from the Asian Institute of Ma
     },
     {
         name: 'Mukesh Sadana',
-        title: 'Senior Advisor - Climate and Green Finance',
+        title: 'Advisor - Climate and Green Finance',
         image: img3,
         shortBio: `Mukesh Sadana is a seasoned expert in digital finance and rural banking, with over 23 years of experience leading large-scale projects across Asia and Africa.`,
         fullBio: `Mukesh Sadana is a seasoned expert in digital finance and rural banking, with over 23 years of experience leading large-scale projects across Asia and Africa.
@@ -82,7 +82,7 @@ He has developed digital banking strategies, advised government and regulatory b
     },
     {
         name: 'Rakhi Sahay',
-        title: 'Operating Partner - Knowledge Management and Communications',
+        title: 'Advisor - Knowledge Management and Communications',
         image: img4,
         shortBio: `Rakhi Sahay is a seasoned development professional with over 20 years of experience across inclusive finance, impact investment, and knowledge management in Asia.`,
         fullBio: `Rakhi Sahay is a seasoned development professional with over 20 years of experience across inclusive finance, impact investment, and knowledge management in Asia.
@@ -95,7 +95,7 @@ An alumna of the U.S. Department of State’s International Visitor Leadership P
     },
     {
         name: 'Amit Gurung',
-        title: 'Senior Advisor - Digital Financial Inclusion',
+        title: 'Advisor - Digital Financial Inclusion',
         image: img5,
         shortBio: `Amit Gurung is a digital finance and technology expert with over 20 years of experience advancing inclusive growth through digital solutions across Asia.`,
         fullBio: `Amit Gurung is a digital finance and technology expert with over 20 years of experience advancing inclusive growth through digital solutions across Asia.
@@ -107,8 +107,8 @@ Amit has worked closely with the Government of India, global corporates, and ban
 Amit holds a Bachelor of Commerce from Panjab University and a Postgraduate Diploma in Business Management from the Symbiosis Institute of Management Studies.`,
     },
     {
-        name: 'Sixit Bhatta',
-        title: 'Senior Advisor - Digital Public Infrastructure',
+        name: 'Nidhi Gupta',
+        title: 'Trustee',
         image: img6,
         shortBio: `Sixit Bhatta is a digital governance and innovation expert with over 20 years of experience across telecommunications, digital finance, mobility, and public infrastructure.`,
         fullBio: `Sixit Bhatta is a digital governance and innovation expert with over 20 years of experience across telecommunications, digital finance, mobility, and public infrastructure.
