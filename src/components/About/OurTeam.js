@@ -24,6 +24,7 @@ import img3 from '../../assets/Mukesh Sadana.png';
 import img4 from '../../assets/Rakhi Sahay.png';
 import img5 from '../../assets/amit gurung.jpg';
 import img6 from '../../assets/Sixit-Bhatta.jpg';
+import img7 from '../../assets/nidhi.png';
 import Button from "@mui/material/Button";
 
 // Expand button style
@@ -109,15 +110,9 @@ Amit holds a Bachelor of Commerce from Panjab University and a Postgraduate Dipl
     {
         name: 'Nidhi Gupta',
         title: 'Trustee',
-        image: img6,
-        shortBio: `Sixit Bhatta is a digital governance and innovation expert with over 20 years of experience across telecommunications, digital finance, mobility, and public infrastructure.`,
-        fullBio: `Sixit Bhatta is a digital governance and innovation expert with over 20 years of experience across telecommunications, digital finance, mobility, and public infrastructure.
-        
-As the founder and architect of Tootle—South Asia’s first motorcycle ride-hailing platform—he pioneered inclusive mobility solutions that empowered gig workers and advanced financial inclusion in Nepal.
-
-Sixit now focuses on Digital Public Infrastructure (DPI) and AI-led innovations, working to build scalable, inclusive systems that accelerate digital transformation and economic opportunity.
-
-His career spans leadership roles in telecom, banking, and entrepreneurship, alongside active engagement in academia, policy dialogues, and DPI ecosystems. Sixit brings deep cross-sectoral expertise and a strong commitment to designing resilient, people-centered digital systems for social and economic impact.`,
+        image: img7,
+        shortBio: `Nidhi has over 17 years of practical experience in digital and data economy with a focus on financial services in both commercial and low- income/SME space.`,
+        fullBio: `Nidhi has over 17 years of practical experience in digital and data economy with a focus on financial services in both commercial and low- income/SME space. She has worked on various projects related to digital financial services, outcome/data measurement, and outcome- based financing models across Asia and Africa, addressing the challenges and opportunities around MSME finance, education and health finance, and venture capital supply chain. She has been an investment banker working on both structured and unstructured financial products, especially around treasury markets, to drive financing gap across sectors and regions. She likes to shape new financial and digital innovations, driven by outcome-focused agenda of resilience and security for customers at the last mile. Nidhi has a master’s degree in economics and in Business Administration`,
     },
 ];
 
