@@ -54,7 +54,13 @@ Jaspreet previously held leadership roles at ICICI Bank and advised institutions
 
 Currently, he leads Access Assist and serves on the boards and advisory groups of impact funds and organizations like IFMR Lead Krea and the Gates Foundation–supported South-South Agriculture Alliance, with a focus on advancing financial well-being for women, informal workers, smallholder farmers, and the aging.`,
     },
-
+{
+        name: 'Nidhi Gupta',
+        title: 'Trustee',
+        image: img7,
+        shortBio: `Nidhi has over 17 years of practical experience in digital and data economy with a focus on financial services in both commercial and low- income/SME space.`,
+        fullBio: `Nidhi has over 17 years of practical experience in digital and data economy with a focus on financial services in both commercial and low- income/SME space. She has worked on various projects related to digital financial services, outcome/data measurement, and outcome- based financing models across Asia and Africa, addressing the challenges and opportunities around MSME finance, education and health finance, and venture capital supply chain. She has been an investment banker working on both structured and unstructured financial products, especially around treasury markets, to drive financing gap across sectors and regions. She likes to shape new financial and digital innovations, driven by outcome-focused agenda of resilience and security for customers at the last mile. Nidhi has a master’s degree in economics and in Business Administration`,
+    },
     {
         name: 'Anil Chandrika',
         title: 'Advisor - Inclusive Growth in Fragile Contexts',
@@ -107,13 +113,7 @@ Amit has worked closely with the Government of India, global corporates, and ban
 
 Amit holds a Bachelor of Commerce from Panjab University and a Postgraduate Diploma in Business Management from the Symbiosis Institute of Management Studies.`,
     },
-    {
-        name: 'Nidhi Gupta',
-        title: 'Trustee',
-        image: img7,
-        shortBio: `Nidhi has over 17 years of practical experience in digital and data economy with a focus on financial services in both commercial and low- income/SME space.`,
-        fullBio: `Nidhi has over 17 years of practical experience in digital and data economy with a focus on financial services in both commercial and low- income/SME space. She has worked on various projects related to digital financial services, outcome/data measurement, and outcome- based financing models across Asia and Africa, addressing the challenges and opportunities around MSME finance, education and health finance, and venture capital supply chain. She has been an investment banker working on both structured and unstructured financial products, especially around treasury markets, to drive financing gap across sectors and regions. She likes to shape new financial and digital innovations, driven by outcome-focused agenda of resilience and security for customers at the last mile. Nidhi has a master’s degree in economics and in Business Administration`,
-    },
+    
 ];
 
 
