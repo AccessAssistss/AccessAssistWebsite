@@ -1,19 +1,19 @@
 import React, { useEffect } from "react";
-import img1 from '../../assets/image (17).png'
-import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import InstagramIcon from '@mui/icons-material/Instagram';
+import img1 from "../../assets/image (17).png";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import InstagramIcon from "@mui/icons-material/Instagram";
 import { Divider } from "@mui/material";
 
 const ContactPage = () => {
   useEffect(() => {
     window.scroll({
-        top: 0,
-        left: 0,
-        behavior: 'instant',
+      top: 0,
+      left: 0,
+      behavior: "instant",
     });
-}, [])
+  }, []);
 
   return (
     <>
@@ -32,69 +32,74 @@ const ContactPage = () => {
             <div className="">
               <h2 className="text-lg font-bold">Registered Office</h2>
               <p className="text-sm font-semibold">
-                1E/2, Desh Bandhu Gupta Road, Jhandewalan Extension, New Delhi 110055
+                1E/2, Desh Bandhu Gupta Road, Jhandewalan Extension, New Delhi
+                110055
               </p>
             </div>
-            <Divider className="bg-black"/>
+            <Divider className="bg-black" />
             <div className="">
               <h2 className="text-lg font-bold">Corporate Office</h2>
               <p className="text-sm font-semibold">
-                Unitech Cyber Park, Tower C, 9th Floor, Sector 39, Gurugram 122003
+                Unitech Cyber Park, Tower D, 9th Floor, Sector 39, Gurugram
+                122003
               </p>
             </div>
-            <Divider className="bg-black"/>
-            
-              <div>
-                <h3 className="text-lg font-bold">Call Us</h3>
-                <p className="text-sm font-semibold">Monday - Friday, 10:00 AM - 6:00 PM</p>
-                <p className="text-sm font-semibold">+91-8595202302</p>
-              </div>
-              <Divider className="bg-black"/>
-              
-              <div className="mt-4">
-                <h3 className="text-lg font-bold">Email Support</h3>
-                <p className="text-sm font-semibold">communications@accessassist.in</p>
-              </div>
-              <Divider className="bg-black"/>
-              <div className="flex space-x-4 mt-4 justify-center ">
-                <a
-                  href="#"
-                  className="text-blue-600 hover:text-blue-800 transition"
-                  aria-label="Facebook"
-                >
-                  <FacebookIcon />
-                </a>
-                <a
-                  href="#"
-                  className="text-blue-400 hover:text-blue-600 transition"
-                  aria-label="Twitter"
-                >
-                  <TwitterIcon />
-                </a>
-                <a
-                  href="#"
-                  className="text-blue-700 hover:text-blue-900 transition"
-                  aria-label="LinkedIn"
-                >
-                  <LinkedInIcon />
-                </a>
-                <a
-                  href="#"
-                  className="text-pink-600 hover:text-pink-800 transition"
-                  aria-label="Instagram"
-                >
-                  <InstagramIcon />
-                </a>
-              </div>
-           
+            <Divider className="bg-black" />
+
+            <div>
+              <h3 className="text-lg font-bold">Call Us</h3>
+              <p className="text-sm font-semibold">
+                Monday - Friday, 10:00 AM - 6:00 PM
+              </p>
+              <p className="text-sm font-semibold">+91-8595202302</p>
+            </div>
+            <Divider className="bg-black" />
+
+            <div className="mt-4">
+              <h3 className="text-lg font-bold">Email Support</h3>
+              <p className="text-sm font-semibold">
+                communications@accessassist.in
+              </p>
+            </div>
+            <Divider className="bg-black" />
+            <div className="flex space-x-4 mt-4 justify-center ">
+              <a
+                href="#"
+                className="text-blue-600 hover:text-blue-800 transition"
+                aria-label="Facebook"
+              >
+                <FacebookIcon />
+              </a>
+              <a
+                href="#"
+                className="text-blue-400 hover:text-blue-600 transition"
+                aria-label="Twitter"
+              >
+                <TwitterIcon />
+              </a>
+              <a
+                href="#"
+                className="text-blue-700 hover:text-blue-900 transition"
+                aria-label="LinkedIn"
+              >
+                <LinkedInIcon />
+              </a>
+              <a
+                href="#"
+                className="text-pink-600 hover:text-pink-800 transition"
+                aria-label="Instagram"
+              >
+                <InstagramIcon />
+              </a>
+            </div>
           </div>
 
           {/* Map Section */}
-          <div>
+          <div className="w-full rounded-2xl overflow-hidden border-2 border-black h-[350px] lg:h-[450px]" >
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.3930357993568!2d77.19867427613764!3d28.647948083379376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd66d9662f3d%3A0x19a7d3c0376b0522!2s1e%2C%20310%2F2%2C%20Desh%20Bandhu%20Gupta%20Rd%2C%20Karol%20Bagh%2C%20New%20Delhi%2C%20Delhi%2C%20110055!5e0!3m2!1sen!2sin!4v1755082416584!5m2!1sen!2sin"
-              width="600"
-              height="450"
+               width="100%"
+              height="100%"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
@@ -102,9 +107,7 @@ const ContactPage = () => {
             />
           </div>
         </div>
-
       </div>
-
 
       <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 px-6 py-12">
         {/* Image Section */}
@@ -114,7 +117,6 @@ const ContactPage = () => {
             src={img1}
             alt="Contact"
             className="transform hover:scale-105 transition-transform duration-300"
-           
           />
         </div>
 
@@ -188,7 +190,6 @@ const ContactPage = () => {
             </button>
           </form>
         </div>
-
       </div>
     </>
   );

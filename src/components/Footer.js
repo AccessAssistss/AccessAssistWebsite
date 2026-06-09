@@ -88,9 +88,9 @@ const Footer = () => {
 
               <div className="mt-4">
                 <p>
-                  <strong>Corporate Office:</strong> Unitech Cyber Park, Tower C,
+                  <strong>Corporate Office:</strong> Unitech Cyber Park
                 </p>
-                <p>9th Floor, Sector 39, Gurugram 122003</p>
+                <p> Tower D , 9th Floor, Sector 39, Gurugram 122003</p>
               </div>
 
               <p>Email: communications@accessassist.in</p>
