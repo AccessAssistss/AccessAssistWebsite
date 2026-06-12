@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1563514227147-6d2ff665a6a0",
+    "title": "UP Micro-Irrigation Project",
+    "description": "The Uttar Pradesh Micro-Irrigation Project aims to expand irrigated areas and help farmers adopt efficient irrigation systems such as drip and sprinkler irrigation."
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854",
+    "title": "Farmer Financial Assistance",
+    "description": "Financial institutions can support farmers by providing affordable loans for irrigation equipment and agricultural infrastructure."
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1464226184884-fa280b87c399",
+    "title": "Water Conservation Initiative",
+    "description": "Modern irrigation technologies help conserve water, increase crop productivity, and improve agricultural sustainability."
+  }
+]
