@@ -54,7 +54,7 @@ body {
   transition: all 0.3s ease;
 }
 
-/* Active dot stles */
+/* Active dot styles */
 .slick-dots li.slick-active div {
   background: blue; /* Active dot color */
   transform: scale(1.2); /* Slightly enlarge the active dot */
