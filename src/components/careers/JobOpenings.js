@@ -51,10 +51,17 @@ const JobOpenings = () => {
       {loading ? (
         <div className="text-center text-gray-500">Loading job openings...</div>
       ) : jobs.length === 0 ? (
-        <div className="text-center text-gray-500">
-          No open positions right now. Check back soon!
-        </div>
-      ) : (
+  <div className="text-center py-16">
+    <div className="text-5xl mb-4">🗂️</div>
+    <h3 className="text-lg font-semibold text-gray-700 mb-2">
+      No Open Positions Right Now
+    </h3>
+    <p className="text-gray-500 max-w-md mx-auto">
+      We don't have any active openings at the moment, but new opportunities
+      come up often. Check back soon!
+    </p>
+  </div>
+) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {jobs.map((job) => (
             <div
