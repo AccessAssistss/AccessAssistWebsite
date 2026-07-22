@@ -6,6 +6,7 @@ import a3 from '../../assets/Frame 1000006915.png'
 import a4 from '../../assets/Frame 1000006916.png'
 
 import JoinUsForm from './JoinUsForm'
+import JobOpenings from './JobOpenings'
 
 const CareersHome = () => {
   useEffect(() => {
@@ -68,6 +69,7 @@ const CareersHome = () => {
       </div>
 
       <div>
+         <JobOpenings />
         <JoinUsForm />
       </div>
       </div>
