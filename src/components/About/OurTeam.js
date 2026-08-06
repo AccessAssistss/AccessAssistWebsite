@@ -20,7 +20,7 @@ const BRAND = {
 
 const jaspreet = {
     name: 'Jaspreet Singh',
-    title: 'Managing Trustee & Principal',
+    title: 'Managing Trustee & Partner',
     focus: 'Inclusive Finance & Resilient Development',
     image: img1,
     fullBio: `Jaspreet is a seasoned banker and development finance expert with over two decades of experience advancing sustainable development goals, particularly in financial health and economic inclusion.
@@ -64,7 +64,7 @@ Anil holds a Master's in Development Management from the Asian Institute of Mana
 
 const raj = {
     name: 'Raj Kumar',
-    title: 'Trustee & Principal',
+    title: 'Trustee & Partner',
     focus: 'Rural Development & Livelihoods',
     image: img5,
     fullBio: `Raj Kumar is a sustainable finance and rural development expert with over 24 years of international experience advancing climate-resilient livelihoods, inclusive finance, and sustainable economic development across South Asia, Southeast Asia, and Sub-Saharan Africa. He has worked extensively with governments, development finance institutions, multilateral agencies, financial institutions, and the private sector to design and implement programmes that strengthen rural livelihoods, promote enterprise development, and expand access to finance for underserved communities.
@@ -74,21 +74,10 @@ His expertise spans rural development, sustainable finance, blended finance, cli
 Earlier, Raj served as Principal Consultant and Domain Leader – Inclusive Finance & Banking at MicroSave (now MSC), where he led advisory assignments for banks, microfinance institutions, NBFCs, and central banks across Asia and Africa. He combines strategic insight with practical implementation experience to develop market-based solutions that strengthen institutions, improve rural livelihoods, foster enterprise growth, and accelerate inclusive, climate-resilient development.`,
 };
 
-const mukesh = {
-    name: 'Mukesh Sadana',
-    title: 'Principal',
-    focus: 'Climate & Green Finance',
-    image: img3,
-    fullBio: `Mukesh Sadana is a seasoned expert in digital finance and rural banking, with over 23 years of experience leading large-scale projects across Asia and Africa.
-
-He brings deep expertise in digital financial services, policy and regulatory engagement, risk management, and financial inclusion. As former head of USAID's Digital Financial Inclusion work in India, Mukesh has worked extensively with financial institutions, telecom operators, regulators, and donor agencies in countries including India, Indonesia, Nepal, Vietnam, Kenya, and the U.S.
-
-He has developed digital banking strategies, advised government and regulatory bodies, designed inclusive financial products, and led sector-wide studies for global development organizations. Mukesh holds a Post Graduate Diploma in Rural Management from IRMA and currently serves as an advisor to a leading private sector bank. At Access Assist, he leads the Climate and Green Finance vertical, focusing on embedding sustainability and resilience into inclusive financial systems.`,
-};
 
 const ujjwal = {
     name: 'Ujjwal Pokhrel',
-    title: 'Principal',
+    title: 'Partner',
     focus: 'Private Sector Development & Green Growth',
     image: img6,
     fullBio: `Ujjwal Pokhrel is Principal – Private Sector Development & Green Growth at Access Assist, bringing over 23 years of international experience in designing and leading programmes that promote inclusive private sector development, market systems transformation, and sustainable economic growth across South and Southeast Asia.
@@ -101,10 +90,20 @@ A recognized leader in green growth and sustainable enterprise development, he h
 
 With deep expertise in value chain finance, blended finance, and financial inclusion, Ujjwal has enabled hundreds of enterprises to access formal finance, strengthen market linkages, and improve competitiveness. His cross-sector experience spans agriculture, forestry, manufacturing, tourism, renewable energy, and green industries, helping institutions and businesses build resilient, low-carbon, and inclusive growth pathways.`,
 };
+const mukesh = {
+    name: 'Mukesh Sadana',
+    title: 'Principal',
+    focus: 'Climate & Green Finance',
+    image: img3,
+    fullBio: `Mukesh Sadana is a seasoned expert in digital finance and rural banking, with over 23 years of experience leading large-scale projects across Asia and Africa.
 
+He brings deep expertise in digital financial services, policy and regulatory engagement, risk management, and financial inclusion. As former head of USAID's Digital Financial Inclusion work in India, Mukesh has worked extensively with financial institutions, telecom operators, regulators, and donor agencies in countries including India, Indonesia, Nepal, Vietnam, Kenya, and the U.S.
+
+He has developed digital banking strategies, advised government and regulatory bodies, designed inclusive financial products, and led sector-wide studies for global development organizations. Mukesh holds a Post Graduate Diploma in Rural Management from IRMA and currently serves as an advisor to a leading private sector bank. At Access Assist, he leads the Climate and Green Finance vertical, focusing on embedding sustainability and resilience into inclusive financial systems.`,
+};
 const rakhi = {
     name: 'Rakhi Sahay',
-    title: 'Senior Specialist',
+    title: 'Principal',
     focus: 'Knowledge Management & Communications',
     image: img4,
     fullBio: `Rakhi Sahay is a seasoned development professional with over 20 years of experience across inclusive finance, impact investment, and knowledge management in Asia.
@@ -118,10 +117,10 @@ An alumna of the U.S. Department of State's International Visitor Leadership Pro
 
 const harsh = {
     name: 'Harsh Pandey',
-    title: 'Senior Specialist',
+    title: 'Principal',
     focus: 'Livelihoods & Enterprise Development',
     image: img8,
-    fullBio: `Harsh Pandey is Senior Specialist – Livelihoods & Enterprise Development at Access Assist, with over 22 years of experience in development finance, financial inclusion, and enterprise development across South Asia, Southeast Asia, and Africa. He has worked with banks, microfinance institutions, fintechs, NBFCs, governments, development finance institutions, and international development partners to design and strengthen inclusive financial ecosystems that create sustainable livelihood opportunities.
+    fullBio: `Harsh Pandey is Principal - Livelihoods & Enterprise Development at Access Assist, with over 22 years of experience in development finance, financial inclusion, and enterprise development across South Asia, Southeast Asia, and Africa. He has worked with banks, microfinance institutions, fintechs, NBFCs, governments, development finance institutions, and international development partners to design and strengthen inclusive financial ecosystems that create sustainable livelihood opportunities.
 
 His expertise spans financial inclusion, digital financial services, MSME and agri-value chain finance, institutional transformation, investment due diligence, market research, product development, strategic planning, and risk management. He has successfully led business transformation and capacity-building initiatives that have strengthened governance, improved operational efficiency, expanded access to finance, and enhanced institutional performance.
 
@@ -132,7 +131,7 @@ He has led and supported multi-country programmes funded by organizations includ
 
 const boardOfAdvisory = [jaspreet, nidhi, anil, raj];
 
-const programmeTeam = [jaspreet, raj, mukesh, ujjwal, rakhi, harsh];
+const programmeTeam = [jaspreet, raj,  ujjwal, mukesh, rakhi, harsh];
 
 
 const AVATAR_ACCENTS = [
