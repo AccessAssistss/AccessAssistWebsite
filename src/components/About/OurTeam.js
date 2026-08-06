@@ -8,9 +8,7 @@ import img6 from '../../assets/ujjwal.jpeg';
 import img7 from '../../assets/nidhi.png';
 import img8 from '../../assets/Hrash.jpeg';
 
-/* -------------------------------------------------------------------------- */
-/* Brand tokens — pulled from the live site (assist logo blue + red accent)   */
-/* -------------------------------------------------------------------------- */
+
 const BRAND = {
     blue: '#12468F',
     blueDeep: '#0A2E5C',
@@ -19,9 +17,7 @@ const BRAND = {
     ink: '#0F1B2D',
 };
 
-/* -------------------------------------------------------------------------- */
-/* People                                                                     */
-/* -------------------------------------------------------------------------- */
+
 const jaspreet = {
     name: 'Jaspreet Singh',
     title: 'Managing Trustee & Principal',
@@ -71,7 +67,11 @@ const raj = {
     title: 'Trustee & Principal',
     focus: 'Rural Development & Livelihoods',
     image: img5,
-    fullBio: null,
+    fullBio: `Raj Kumar is a sustainable finance and rural development expert with over 24 years of international experience advancing climate-resilient livelihoods, inclusive finance, and sustainable economic development across South Asia, Southeast Asia, and Sub-Saharan Africa. He has worked extensively with governments, development finance institutions, multilateral agencies, financial institutions, and the private sector to design and implement programmes that strengthen rural livelihoods, promote enterprise development, and expand access to finance for underserved communities.
+
+His expertise spans rural development, sustainable finance, blended finance, climate finance, agricultural value chain finance, financial inclusion, and gender-lens investing, with a strong focus on building resilient local economies and mobilizing private capital for sustainable development. He has led complex technical assistance and advisory programmes funded by leading international partners, including the European Union (EU), DFAT, Global Affairs Canada, CARE International, IFC, LuxDev, and Save the Children. His recent work includes designing a gender-lens blended finance facility for women-led green enterprises under the EU's WE4Ag programme and developing climate-smart agriculture finance solutions across the Mekong region.
+
+Earlier, Raj served as Principal Consultant and Domain Leader – Inclusive Finance & Banking at MicroSave (now MSC), where he led advisory assignments for banks, microfinance institutions, NBFCs, and central banks across Asia and Africa. He combines strategic insight with practical implementation experience to develop market-based solutions that strengthen institutions, improve rural livelihoods, foster enterprise growth, and accelerate inclusive, climate-resilient development.`,
 };
 
 const mukesh = {
