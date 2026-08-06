@@ -37,7 +37,7 @@ Currently, he leads Access Assist and serves on the boards and advisory groups o
 const nidhi = {
     name: 'Nidhi Gupta',
     title: 'Trustee & Executive Director',
-    focus: null,
+    focus: `Executive Director`,
     image: img7,
     fullBio: `Nidhi has over 17 years of practical experience in digital and data economy with a focus on financial services in both commercial and low-income/SME space. She has worked on various projects related to digital financial services, outcome/data measurement, and outcome-based financing models across Asia and Africa, addressing the challenges and opportunities around MSME finance, education and health finance, and venture capital supply chain.
 
