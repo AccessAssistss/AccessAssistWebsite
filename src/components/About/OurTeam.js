@@ -204,7 +204,7 @@ const TeamCard = ({ member, onSeeMore }) => {
                         <button
                             type="button"
                             onClick={() => onSeeMore(member)}
-                            className="flex w-full items-center justify-center gap-1.5 rounded-full bg-gradient-to-r from-[#12468F] to-[#0A2E5C] px-4 py-2.5 text-xs font-semibold uppercase tracking-wide text-white shadow-sm transition-all duration-200 "
+                            className="flex w-full items-center justify-center gap-1.5 rounded-full bg-[#0A2E5C] px-4 py-2.5 text-xs font-semibold uppercase tracking-wide text-white shadow-sm transition-all duration-200 "
                         >
                             View Profile
                             <span
