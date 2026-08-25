@@ -46,21 +46,21 @@ She has been an investment banker working on both structured and unstructured fi
 Nidhi has a master's degree in economics and in Business Administration.`,
 };
 
-const anil = {
-    name: 'Anil Chandrika',
-    title: 'Trustee',
-    focus: 'Inclusive Growth in Fragile Contexts',
-    image: img2,
-    fullBio: `Anil Chandrika is a seasoned development leader with over 25 years of experience advancing inclusive governance, gender equity, social protection, and sustainable livelihoods in disaster-affected and post-conflict settings.
+// const anil = {
+//     name: 'Anil Chandrika',
+//     title: 'Trustee',
+//     focus: 'Inclusive Growth in Fragile Contexts',
+//     image: img2,
+//     fullBio: `Anil Chandrika is a seasoned development leader with over 25 years of experience advancing inclusive governance, gender equity, social protection, and sustainable livelihoods in disaster-affected and post-conflict settings.
 
-As a Partner at Access Assist, he brings deep expertise in designing and delivering impactful development and financing solutions across fragile contexts in India and globally.
+// As a Partner at Access Assist, he brings deep expertise in designing and delivering impactful development and financing solutions across fragile contexts in India and globally.
 
-Anil has held senior leadership roles within the UN system, including as Country Manager for UNOPS in Iraq, where he led strategic planning, operations, and gender-focused programming. His work spans Syria, Nepal, Thailand, Somalia, and Afghanistan with UNDP, UNHCR, and UN Women—where he shaped national policies, built resilient institutions, and promoted women's economic rights in post-conflict recovery.
+// Anil has held senior leadership roles within the UN system, including as Country Manager for UNOPS in Iraq, where he led strategic planning, operations, and gender-focused programming. His work spans Syria, Nepal, Thailand, Somalia, and Afghanistan with UNDP, UNHCR, and UN Women—where he shaped national policies, built resilient institutions, and promoted women's economic rights in post-conflict recovery.
 
-Earlier in his career, Anil worked with IFAD, ICIMOD, and the Aga Khan Foundation on community-driven natural resource management and inclusive rural development across South Asia. His programs have strengthened local governance, supported grassroots women's groups, and advanced cooperative models for food and livelihood security.
+// Earlier in his career, Anil worked with IFAD, ICIMOD, and the Aga Khan Foundation on community-driven natural resource management and inclusive rural development across South Asia. His programs have strengthened local governance, supported grassroots women's groups, and advanced cooperative models for food and livelihood security.
 
-Anil holds a Master's in Development Management from the Asian Institute of Management, an M.Phil in Education (Development Studies) from Kathmandu University, and a Master of Social Work from Tata Institute of Social Sciences. He also holds certifications in federalism, human rights, peacebuilding, and PRINCE2® project management.`,
-};
+// Anil holds a Master's in Development Management from the Asian Institute of Management, an M.Phil in Education (Development Studies) from Kathmandu University, and a Master of Social Work from Tata Institute of Social Sciences. He also holds certifications in federalism, human rights, peacebuilding, and PRINCE2® project management.`,
+// };
 
 const raj = {
     name: 'Raj Kumar',
@@ -129,9 +129,10 @@ Harsh has extensive experience in designing innovative financing solutions for a
 He has led and supported multi-country programmes funded by organizations including the World Bank and Asian Development Bank, working closely with public and private sector stakeholders to mobilize finance, strengthen institutions, promote enterprise development, and deliver measurable social and economic impact for underserved communities.`,
 };
 
-const boardOfAdvisory = [jaspreet, nidhi, anil, raj];
+const boardOfAdvisory = [jaspreet, nidhi, raj];
 
 const programmeTeam = [jaspreet, raj,  ujjwal, mukesh, rakhi, harsh];
+
 
 
 const AVATAR_ACCENTS = [
@@ -306,7 +307,7 @@ const TeamSection = ({ title, members, onSeeMore, tint = 'light' }) => (
                 <div className="mx-auto mt-3 h-1 w-16 rounded-full bg-[#ED1C24]/70" />
             </div>
 
-            <div className="grid grid-cols-1 items-stretch gap-8 sm:grid-cols-2 lg:grid-cols-4 ">
+            <div className="grid grid-cols-1 items-stretch gap-8 sm:grid-cols-2 lg:grid-cols-3">
                 {members.map((member) => (
                     <TeamCard member={member} onSeeMore={onSeeMore} key={member.name} />
                 ))}
