@@ -21,7 +21,7 @@ const BRAND = {
 const jaspreet = {
     name: 'Jaspreet Singh',
     title: 'Managing Trustee & Partner',
-    focus: 'Inclusive Finance & Resilient Development',
+    focus: 'Sustainable Finance & Private Sector Development',
     image: img1,
     fullBio: `Jaspreet is a seasoned banker and development finance expert with over two decades of experience advancing sustainable development goals, particularly in financial health and economic inclusion.
 
@@ -33,6 +33,21 @@ Jaspreet previously held leadership roles at ICICI Bank and advised institutions
 
 Currently, he leads Access Assist and serves on the boards and advisory groups of impact funds and organizations like IFMR Lead Krea and the Gates Foundation–supported South-South Agriculture Alliance, with a focus on advancing financial well-being for women, informal workers, smallholder farmers, and the aging.`,
 };
+// const jaspreetp = {
+//     name: 'Jaspreet Singh',
+//     title: 'Managing Trustee & Partner',
+//     focus: 'Sustainable Finance & Private Sector Development',
+//     image: img1,
+//     fullBio: `Jaspreet is a seasoned banker and development finance expert with over two decades of experience advancing sustainable development goals, particularly in financial health and economic inclusion.
+
+// He has led global work on digital finance, financial health, and consumer protection with UNCDF, collaborating with governments and private sector actors across Asia, Africa, and the Pacific.
+
+// He has contributed to the UN Secretary General's Task Force on Digital Financing for the SDGs and served on the UNSGSA Working Group on Financial Health. His work has focused on leveraging tech-enabled finance and impact investments to improve the lives of low- and moderate-income populations.
+
+// Jaspreet previously held leadership roles at ICICI Bank and advised institutions such as the World Bank, IFC, and global consulting firms on inclusive finance.
+
+// Currently, he leads Access Assist and serves on the boards and advisory groups of impact funds and organizations like IFMR Lead Krea and the Gates Foundation–supported South-South Agriculture Alliance, with a focus on advancing financial well-being for women, informal workers, smallholder farmers, and the aging.`,
+// };
 
 const nidhi = {
     name: 'Nidhi Gupta',
@@ -78,7 +93,7 @@ Earlier, Raj served as Principal Consultant and Domain Leader – Inclusive Fina
 const ujjwal = {
     name: 'Ujjwal Pokhrel',
     title: 'Partner',
-    focus: 'Private Sector Development & Green Growth',
+    focus: ' Nature-Based Solutions & Green Growth',
     image: img6,
     fullBio: `Ujjwal Pokhrel is Principal – Private Sector Development & Green Growth at Access Assist, bringing over 23 years of international experience in designing and leading programmes that promote inclusive private sector development, market systems transformation, and sustainable economic growth across South and Southeast Asia.
 
